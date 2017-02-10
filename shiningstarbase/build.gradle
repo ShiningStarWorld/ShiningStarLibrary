@@ -38,3 +38,27 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'shiningstarlibrary'
+
+    publishedGroupId = 'com.github.ShiningStarLibrary'
+    libraryName = 'ShiningStarLibrary'
+    artifact = 'shiningstarlibrary'
+
+    libraryDescription = 'A base code library MVP project framework,to help person code more easy.'
+
+    siteUrl = 'https://github.com/ShiningStarWorld/ShiningStarLibrary'
+    gitUrl = 'https://github.com/ShiningStarWorld/ShiningStarLibrary.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'nuuneoi'
+    developerName = 'AlohaQwQ'
+    developerEmail = '757993938@qq.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
